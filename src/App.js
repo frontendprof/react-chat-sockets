@@ -17,7 +17,7 @@ const App=()=> {
             publicKey='d95244ba-f078-4225-b14b-3b1b541cc39b'
             userName="react-chat-admin"
             userSecret="qwerty12345"
-            renderChatFeed={chatAppProps=><ChatFeed {...chatAppProps} />}
+            renderChatFeed={(chatAppProps)=><ChatFeed {...chatAppProps} />}
         />
     </>
   );
